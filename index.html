@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shonestew | JavaScript/TypeScript Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">shonestew</a>
+                <nav class="nav-links">
+                    <a href="#about" class="nav-link">Обо мне</a>
+                    <a href="#portfolio" class="nav-link">Портфолио</a>
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Привет, я <span>shonestew</span></h1>
+            <p class="hero-subtitle">JavaScript/TypeScript разработчик, специализируюсь на создании React-приложений и Telegram ботов с использованием библиотеки grammY</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary">
+                    <i class="fas fa-eye"></i> Посмотреть работы
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-paper-plane"></i> Связаться со мной
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Кто я?</h3>
+                    <p>Я разработчик на JavaScript/TypeScript, разрабатывающий в основном чат-ботов в мессенджере Телеграмм, используя библиотеку и grammY. Но также имею опыт разработки React-приложении</p>
+                    <p>К разработке проектов я подхожу с вниманием и интересом, не забывая об производительности и пользовательский опыт. Я изучаю новые технологии, познаю их и пытаюсь стать хорошим разработчиком.</p>
+                    <p>В свободное время я люблю экспериментировать с другими языками программирования и библиотеками а также писать небольшие скрипты для себя.</p>
+                    
+                    <div class="skills">
+                        <div class="skill">
+                            <i class="fab fa-js"></i> JavaScript
+                        </div>
+                        <div class="skill">
+                            <i class="fas fa-code"></i> TypeScript
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-react"></i> React
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-telegram"></i> grammY
+                        </div>
+                        <div class="skill">
+                            <i class="fas fa-server"></i> Node.js
+                        </div>
+                        <div class="skill">
+                            <i class="fas fa-database"></i> MongoDB
+                        </div>
+                        <div class="skill">
+                            <i class="fab fa-github"></i> Git & GitHub
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="card-img">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>man_checkStatus_bot</h3>
+                        <p>Чат-бот в Телеграмме, предназначенный для проверки статуса сервера в игре Minecraft. Проект уже закрыт</p>
+                        <div class="card-tags">
+                            <span class="card-tag">JavaScript</span>
+                            <span class="card-tag">Telegraf</span>
+                            <span class="card-tag">MongoDB</span>
+                        </div>
+                        <a href="https://github.com/shonestew/man_checkStatus_bot" class="card-link">
+                            Подробнее <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="card-img">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>ThatPingerBot</h3>
+                        <p>Попытка создать новую версию чат-бота man_checkStatus_bot, с большим функционалом и с масштабируемой структурой кода. На данный момент находится в разработке.</p>
+                        <div class="card-tags">
+                            <span class="card-tag">TypeScript</span>
+                            <span class="card-tag">grammY</span>
+                            <span class="card-tag">bedrock-protocol</span>
+                            <span class="card-tag">Mineflayer</span>
+                            <span class="card-tag">MongoDB</span>
+                        </div>
+                        <a href="https://github.com/shonestew/ThatPingerBot" class="card-link">
+                            Подробнее <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="card-img">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>9FDA Forum</h3>
+                        <p>Первый и на данный момент последняя попытка создать полноценное веб-приложение на React.</p>
+                        <div class="card-tags">
+                            <span class="card-tag">React</span>
+                            <span class="card-tag">JavaScript</span>
+                            <span class="card-tag">Vite</span>
+                        </div>
+                        <a href="https://github.com/shonestew/9fda-forum-frontend" class="card-link">
+                            Подробнее <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Социальные сети</h3>
+                        <p>Свяжитесь со мной через мои профили в соцсетях или просмотрите мои проекты на GitHub:</p>
+                        <div class="social-links">
+                            <a href="https://github.com/shonestew" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://t.me/shonestew" target="_blank" class="social-link">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/shonestew" target="_blank">github.com/shonestew</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fab fa-telegram"></i>
+                            <div>
+                                <h4>Telegram</h4>
+                                <a href="https://t.me/shonestew" target="_blank">@shonestew</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">shonestew</a>
+                <div class="footer-links">
+                    <a href="#about" class="footer-link">Обо мне</a>
+                    <a href="#portfolio" class="footer-link">Портфолио</a>
+                    <a href="#contact" class="footer-link">Контакты</a>
+                </div>
+                <p class="copyright">© 2025 shonestew. Все права защищены. Исходный код страницы: <a href="https://github.com/shonestew/my-website" target="_blank">тык!</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
